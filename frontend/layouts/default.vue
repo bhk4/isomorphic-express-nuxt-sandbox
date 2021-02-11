@@ -1,3 +1,7 @@
+<!--
+<script src="https://cdn.lr-ingest.io/LogRocket.min.js" crossorigin="anonymous"></script>
+<script>window.LogRocket && window.LogRocket.init('pgsfsl/sandbox');</script>
+-->
 <!-- ./layouts/default.vue -->
 
 <template>

@@ -1,5 +1,6 @@
 // backend/index.js
 
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose')
@@ -8,6 +9,11 @@ const api = require('./routes/api')
 const users = require('./mock')
 const path = require('path');
 const app = express()
+
+// // import LogRocket from 'logrocket';
+// // LogRocket.init('pgsfsl/sandbox');
+// const LogRocket = require('logrocket')
+// LogRocket.init('pgsfsl/sandbox');
 
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
